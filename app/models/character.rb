@@ -6,7 +6,7 @@ class Character < ActiveRecord::Base
     that_thing_you_say = "#{self.name} always says: #{self.catchphrase}" 
   end
   
-  def build_show(show)
-     self.show.name = show 
+  def build_show(new_show)
+     self.show.name = new_show 
   end 
 end
