@@ -8,6 +8,5 @@ class Character < ActiveRecord::Base
   
   def build_show(new_show)
     self.show = Show.new(new_show)
-    #binding.pry
   end 
 end
